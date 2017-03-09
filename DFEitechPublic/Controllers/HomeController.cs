@@ -10,6 +10,7 @@ namespace DFEitechPublic.Controllers
     {
         public ActionResult Index()
         {
+
             return View();
         }
 
@@ -25,6 +26,11 @@ namespace DFEitechPublic.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+
+        public ActionResult abPage1(string irstname, string secondName)
+        {
+            return View(butler.GetStudents(firstName, secondName));
         }
     }
 }
