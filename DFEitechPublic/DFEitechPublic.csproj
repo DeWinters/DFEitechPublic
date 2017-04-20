@@ -203,6 +203,7 @@
     <Content Include="Resource\abImages\greyhex.svg" />
     <Content Include="Resource\abImages\room.jpg" />
     <Content Include="Resource\abImages\twitter.png" />
+    <Content Include="Resource\Common\dfeiPic.jpg" />
     <Content Include="Resource\Common\ElecEng.jpg" />
     <Content Include="Resource\Common\SoftEng.jpg" />
     <Content Include="Resource\dwImages\Comms.jpg" />

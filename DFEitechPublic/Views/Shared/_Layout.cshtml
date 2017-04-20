@@ -20,12 +20,14 @@
                 @Html.ActionLink("DFEI Technology", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                <ul class="nav navbar-nav" style="font-size:large;">
                     <li>@Html.ActionLink("Electronics", "index", "Electronics")</li>
                     <li>@Html.ActionLink("Software", "ITN6", "ITN6")</li>
                     <li>@Html.ActionLink("Science", "About", "Home")</li>
+                </ul>
+                <ul class="nav navbar-nav" style="font-size:small;">
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
