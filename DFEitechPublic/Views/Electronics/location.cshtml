@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "location";
+    <link type="text/css" rel="stylesheet" href="dwStyles.css">
+}
+
+<h2>location</h2>
+
+ <div id="frame">
+    <div class="heading">
+        DFEI Electronics Technology 5
+    </div>
+
+    <div id="nav">
+        <ul>
+            <li>@Html.ActionLink("Home", "index", "Electronics")</li>
+            <li>@Html.ActionLink("Staff", "staff", "Electronics")</li>
+            <li>@Html.ActionLink("Site Management", "management", "Electronics")</li>
+        </ul>
+    </div>
+
+    <div class="bar">
+        <h1>
+            Course Year
+            <img src="~/Resource/dwImages/timetable.jpg" alt="">
+        </h1>
+        <ul>
+            <li>Green = Class Start</li>
+            <li>Peach = Holiday</li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <div class="tile">
+            <p>
+                DFEI Campus Location
+                <img src="~/Resource/dwImages/map.jpg" alt="">
+            </p>
+            <p>
+                <h2>Campus</h2>
+                <h3>
+                    DFEI is just 100 meters from York Road in Dun Laoghaire.
+                    A 10 minute walk from the Dart station.
+                </h3>
+            </p>
+        </div>
+    </div>
+</div>
+
+

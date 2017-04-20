@@ -1,0 +1,77 @@
+﻿
+@{
+    ViewBag.Title = "systems";
+    <link type="text/css" rel="stylesheet" href="dwStyles.css">
+}
+
+<h2>systems</h2>
+
+<div id="frame">
+    <div class="heading">
+        DFEI Electronics Technology 5
+    </div>
+
+    <div id="nav">
+        <ul>
+            <li>@Html.ActionLink("Home", "index", "Electronics")</li>
+            <li>@Html.ActionLink("Location", "location", "Electronics")</li>
+            <li>@Html.ActionLink("Staff", "staff", "Electronics")</li>
+            <li>@Html.ActionLink("Site Management", "management", "Electronics")</li>
+        </ul>
+    </div>
+
+    <div class="bar">
+        <h1>
+            Course Year
+            <img src="~/Resource/dwImages/timetable.jpg" alt="">
+        </h1>
+        <ul>
+            <li>Green = Class Start</li>
+            <li>Peach = Holiday</li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <div class="tile">
+            <p>
+                Systems Engineering
+                <img src="~/Resource/dwImages/Maintenance.jpg" alt="">
+            </p>
+            <p>
+                <h2>Analogue</h2>
+                <h3>
+                    Explosure the fundamentals of current conveyance and wave
+                    signatures in DFEI's electronics lab located in G1.	Students
+                    will earn mastery of electronic's fundamental laws as they
+                    become familiarized with technologies most fundamental components
+                    through hands-on experimentation.
+                </h3>
+            </p>
+            <p>
+                <h2>Digital</h2>
+                <h3>
+                    Learn the basic nature of computing with boolean logic and
+                    binary mathematics to create working models demostrating the
+                    the application of these disciplines.
+                </h3>
+            </p>
+            <p>
+                <h2>Control Systems</h2>
+                <h3>
+                    Combining the fundamentals of Analogue and digital, Control Systems
+                    teaches students to employ circuitry in practical applications.
+                </h3>
+            </p>
+            <p>
+                <h2>Systems Maintenance</h2>
+                <h3>
+                    Learn to install PC and networking components. Troubleshoot
+                    malfunctioning terminals. Identify and understand core computing
+                    components. Install and navigate operating systems.
+                </h3>
+            </p>
+        </div>
+
+    </div>
+</div>
+

@@ -30,7 +30,7 @@ namespace DFEitechPublic.Controllers
 
         public ActionResult abPage1(string irstname, string secondName)
         {
-            return View(butler.GetStudents(firstName, secondName));
+            return View();
         }
     }
 }

@@ -1,0 +1,168 @@
+﻿
+@{
+    ViewBag.Title = "ITN6";
+    
+}
+
+<title>ITN6</title>
+<meta charset="utf-8" />
+<meta name="keywords" content="Dun Laoghaire Further Education Institute, DFEI Software Developer, Web Developer, HTML, CSS, C++, C#, Visual Basic, VB, programming, computing" />
+<meta name="description" content="The website for Advanced Software Development Dun Laoghaire Further Education Institute." />
+<meta name="author" content="Aaron Bermingham" />
+
+<link href=@Url.Content("~/Content/abStyles.css") rel="stylesheet" type="text/css" />
+<!--link href="~/Content/abStyles.css" rel="stylesheet" type="text/css" media="screen" /-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("a").on('click', function (event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function () {
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+    });
+</script>
+
+
+
+<header id="top">
+    <br /><br /><br />
+    <h1>dfei - Advanced Software Development</h1>
+    <h2>Learn to code!</h2>
+</header>
+
+
+
+<ul id="categories" class="clr">
+    <li class="pusher"></li>
+    <li>
+        <div>
+            <img src="~/Resource/abImages/code.jpg" alt="code" />
+            <h1>About</h1>
+            <p>Click to learn more information about the course&nbsp;<a href="#section1">here</a> </p>
+        </div>
+    </li>
+    <li>
+        <div>
+            <img src="~/Resource/abImages/room.jpg" alt="" />
+            <h1>Course Requirements</h1>
+            <p>Click to see the course requirements&nbsp;<a href="#section2">here</a> </p>
+        </div>
+    </li>
+    <li>
+        <div>
+            <img src="~/Resource/abImages/dfei.jpg" alt="" />
+            <h1>Modules</h1>
+            <p>Click to view the course modules&nbsp;<a href="#section3">here</a></p>
+        </div>
+    </li>
+    <li>
+        <div>
+            <img src="~/Resource/abImages/Cplus.png" alt="" />
+            <h1>Testimonials</h1>
+            <p>Click to read testimonials about the course&nbsp;<a href="#section4">here</a> </p>
+        </div>
+    </li>
+</ul>
+
+
+
+<div class="abmain" id="section1">
+    <br /> <br /> <br />
+    <h2>About</h2>
+    <section style="padding-left: 1.5em;">
+        <p>
+            Learn to code in a fun and engaging atmosphere. The Advanced Software Development course is ideal for those
+            with some prior programming experience and wish to further their knowledge in order to gain employment in
+            the IT industry or go on to a degree level course in computer science.<br> The modules on offer will give
+            students an extensive insight into core skills needed for the IT industry such as Object Orientated Programming
+            and Relational Database alongside modules like Project Management and Personal and Professional Development which
+            ensures that this course gives the student a well-rounded educational experience.
+        </p>
+        <a href="#top" style="color: blue;">Return to top </a>
+    </section>
+    <br /> <br /> <br />
+</div>
+
+
+
+<div class="abmain" id="section2">
+    <br /> <br /> <br />
+    <h2>Course Requirements</h2>
+    <section style="padding-left: 1.5em;">
+        <ul style="list-style-type:circle">
+            <li>No CAO points required</li>
+            <li>Level 5 QQI Software Development or Information Technology or Electronic Technology</li>
+            <li>Other Relevant Level 5 QQI Award</li>
+            <li>Applications are welcome form learners with relevant experience in this area</li>
+        </ul>
+        <a href="#top" style="color: blue;">Return to top </a>
+    </section>
+    <br /> <br /> <br />
+</div>
+
+
+<div class="abmain" id="section3">
+    <br /> <br /> <br />
+    <h2>Modules</h2>
+    <section style="padding-left: 1.5em;">        
+        <ul>
+            <li>Communications</li>
+            <li>Graphic User Interface programming (GUI)</li>
+            <li>Object Orientated Programming (OOP)</li>
+            <li>Personal and Professional Development</li>
+            <li>Project Management</li>
+            <li>Relational Database</li>
+            <li>Software Architecture</li>
+            <li>Web Development</li>
+        </ul>
+        <a href="#top" style="color: blue;">Return to top </a>
+    </section>
+    <br /> <br /> <br />
+</div>
+
+
+<div class="abmain" id="section4">
+    <br /> <br /> <br />
+    <h2>Testimonials</h2>
+    <section style="padding-left: 1.5em;">
+        <div id="stndimg">
+            <figure>
+                <img src="~/Resource/abImages/aaron.jpg" width="263" height="343" alt="Aaron Bermingham" title="Aaron Bermingham">
+                <figcaption>Aaron Bermingham <br> DFEI student</figcaption>
+            </figure>
+        </div>
+        <p>
+            "My year studying Advanced Software Development at DFEI has allowed me to develop new skills and enhance ones I already had.
+            There is a great educational atmosphere with supportive and encouraging tutors. I have no regrets about choosing to study
+            Advanced Software Development at DFEI." <br>- Aaron Bermingham, Advanced Software Development Student 16/17
+        </p>
+        <br /> <br /> <br />
+        <a href="#top" style="color: blue;">Return to top </a>
+    </section>
+</div>
+
+
+<footer>
+    <a href="https://www.facebook.com/DunLaoghaireFurtherEducationInstitute/"><img src="~/Resource/abImages/Facebook.png" alt="Facebook logo" title="DFEI facebook" height="50" width="50"></a>
+    <a href="https://twitter.com/dfei_ireland?lang=en"><img src="~/Resource/abImages/twitter.png" alt="Twitter logo" title="DFEI Twitter" height="50" width="50"></a>
+    <a href="mailto: info@dfei.ie"><img src="~/Resource/abImages/email.png" alt="Email icon" title="DFEI email" height="50" width="50"></a>
+</footer>
+

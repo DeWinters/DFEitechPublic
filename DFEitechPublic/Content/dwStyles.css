@@ -1,0 +1,126 @@
+﻿
+body{
+margin: 0px;
+/**  background-image: url(~/Resource/); */
+}
+
+#frame {							/* Outside Frame */
+width: 968px;
+margin: 10px auto;
+}
+
+#nav{							/* Navigation Bar */
+background-color: #000;
+height: 36px;
+width: 964px;
+border: solid 2px #000;
+}
+
+#nav ul{
+list-style-type: none;
+text-align: center;
+font-size: 14px; 
+background-color: #000;
+padding: 1px;
+margin: 10px;
+}
+
+#nav ul li{
+display: inline;
+}
+
+#nav ul li a{
+text-decoration: none;
+color: #fff;
+background-color: #000;
+padding: .2em 2em;
+}
+
+#nav ul li a:hover{
+color: #000;
+background-color: #fff;
+}
+
+.heading{						/* Heading */
+background-color: #072c5f;
+height: 100px;
+width: 964px;
+border: solid 2px #000;
+color: white;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+font-weight: bold;
+font-size: 300%;
+text-align: center;
+
+}
+
+.bar{							/* Side Bar */
+float: left;
+width: 176px;
+height: 1000px;
+background-color: #3764a2;
+border-left: solid 2px #000;
+border-bottom: solid 2px #000;
+border-bottom-left-radius: 10px;
+}
+
+.main{							/* Main Area */
+float: left;
+width: 786px;
+height: 1000px;
+background: #e5e4d7;
+border-right: solid 2px #000;
+border-left: solid 2px #000;
+border-bottom: solid 2px #000;
+font-size: 14px;
+overflow: auto;
+border-bottom-right-radius: 10px;
+}
+
+.tile{						  	/* Tile Template*/
+background-color: grey;
+border: 2px solid #000;
+border-radius: 10px;
+font-size: 200%;
+padding: 1px;
+margin: 22px;
+width: 725px;
+color: white;
+text-align: center;
+}
+
+.tile a{
+text-decoration: none;
+color: white;
+}
+
+.tile:hover{
+border: 2px solid blue;
+}
+
+h1{
+text-align: center;
+font-size: 25px;
+color: orange;
+}
+
+h2{
+font-size: 20px;
+text-align: left;
+padding-left: 20px;
+padding-top: 0px;
+padding-bottom: 5px;
+color: white;
+margin: 0px;
+}
+
+h3{
+font-size: 14px;
+text-align: left;
+padding-left: 20px;
+padding-top: 0px;
+padding-bottom: 0px;
+color: #000;
+margin: 0px;
+}

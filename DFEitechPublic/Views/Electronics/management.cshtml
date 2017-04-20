@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewBag.Title = "management";
+
+    <link type="text/css" rel="stylesheet" href="dwStyles.css">
+}
+
+<h2>management</h2>
+
+
+    <div id="frame">
+    <div class="heading">
+        DFEI Electronics Technology 5
+    </div>
+
+    <div id="nav">
+        <ul>
+            <li>@Html.ActionLink("Home", "index", "Electronics")</li>
+            <li>@Html.ActionLink("Location", "location", "Electronics")</li>
+            <li>@Html.ActionLink("Staff", "staff", "Electronics")</li>
+        </ul>
+    </div>
+
+    <div class="bar">
+        <h1>
+            Course Year
+            <img src="~/Resource/dwImages/timetable.jpg" alt="">
+        </h1>
+        <ul>
+            <li>Green = Class Start</li>
+            <li>Peach = Holiday</li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <div class="tile">
+            <p>Site Management</p>
+            <p>
+
+                <h2>Authour</h2>
+                <h3>
+                    Derek Winters DFEI ET5 & ITN6 2015-2017
+                </h3>
+            </p>
+
+            <h2>Specification</h2>
+            <h3>
+                These ET5 pages were originally created in html on the specifications
+                of Niall Power as a component of the Communications module
+                Certification of the ET5 course in March 2016.
+                The pages were subsequently upgraded to cshtml so they could conform to
+                the specifications of Shane McGovern's ITN6 Project Management module
+                Certification, as a component of the DFEitechPublic Project.
+
+            </h3>
+
+            <h2>Rights</h2>
+            <h3>
+                The package of files "DFEitechPublic" are the combined effort of the
+                2016-2017 ITN6 class group and all files and images are at the disposal
+                of Dun Laoghaire Further Education Institute for the purposes of the ITN6 courseline.
+            </h3>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,65 @@
+﻿
+@{
+    ViewBag.Title = "ET5index";
+    <link type="text/css" rel="stylesheet" href="dwStyles.css">
+}
+
+<h2>electronicsMain</h2>
+
+
+<div id="frame">
+    <div class="heading">
+        DFEI Electronics Technology 5
+    </div>
+
+    <div id="nav">
+        <ul>
+            <li>@Html.ActionLink("Location", "location", "Electronics")</li>
+            <li>@Html.ActionLink("Staff", "staff", "Electronics")</li>
+            <li>@Html.ActionLink("Site Management", "management", "Electronics")</li>
+        </ul>
+    </div>
+
+    <div class="bar">
+        <h1>
+            Course Year
+            <img src="~/Resource/dwImages/timetable.jpg" alt="">
+        </h1>
+        <ul>
+            <li>Green = Class Start</li>
+            <li>Peach = Holiday</li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <div class="tile">
+            <a href='@Url.Action("systems", "Electronics")'>
+                    <p>
+                        Systems Engineering
+                        <img src="~/Resource/dwImages/Maintenance.jpg" alt="">
+                    </p>
+                </a>
+        </div>
+
+        <div class="tile">
+            <a href='@Url.Action("software", "Electronics")'>
+                    <p>
+                        Software Engineering
+                        <img src="~/Resource/dwImages/programming.jpg" alt="">
+                    </p>
+                </a>
+        </div>
+
+        <div class="tile">
+           <a href='@Url.Action("competency", "Electronics")'>
+                <p>
+                    Sector Competency
+                    <img src="~/Resource/dwImages/Comms.jpg" alt="">
+                </p>
+            </a>
+        </div>
+
+    </div>
+
+</div>
+
