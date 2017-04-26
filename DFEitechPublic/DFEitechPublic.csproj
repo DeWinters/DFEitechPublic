@@ -169,6 +169,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ElectronicsController.cs" />
+    <Compile Include="Controllers\ET6Controller.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ITN6Controller.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -187,7 +188,9 @@
     <Content Include="Content\abStyles.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\default.css" />
     <Content Include="Content\dwStyles.css" />
+    <Content Include="Content\fonts.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -205,12 +208,18 @@
     <Content Include="Resource\abImages\twitter.png" />
     <Content Include="Resource\Common\dfeiPic.jpg" />
     <Content Include="Resource\Common\ElecEng.jpg" />
+    <Content Include="Resource\Common\Eng5.jpg" />
     <Content Include="Resource\Common\SoftEng.jpg" />
     <Content Include="Resource\dwImages\Comms.jpg" />
     <Content Include="Resource\dwImages\Maintenance.jpg" />
     <Content Include="Resource\dwImages\map.jpg" />
     <Content Include="Resource\dwImages\programming.jpg" />
     <Content Include="Resource\dwImages\timetable.jpg" />
+    <Content Include="Resource\eaImages\black.jpg" />
+    <Content Include="Resource\eaImages\Pic1.jpg" />
+    <Content Include="Resource\eaImages\Pic2.jpg" />
+    <Content Include="Resource\eaImages\Pic3.jpg" />
+    <Content Include="Resource\eaImages\Pic4.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -268,6 +277,7 @@
     <Content Include="Views\Electronics\staff.cshtml" />
     <Content Include="Views\Electronics\systems.cshtml" />
     <Content Include="Views\ITN6\ITN6.cshtml" />
+    <Content Include="Views\ET6\ET6.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

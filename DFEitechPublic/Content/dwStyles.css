@@ -126,7 +126,7 @@ margin: 0px;
 }
 
 #leader{
-    background-image: url(/Resource/Common/dfeiPic.jpg);
+    background-image: url("/Resource/Common/dfeiPic.jpg");
     background-size: cover;
 
     

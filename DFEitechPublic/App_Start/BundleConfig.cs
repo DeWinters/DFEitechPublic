@@ -27,6 +27,8 @@ namespace DFEitechPublic
                       "~/Content/bootstrap.css",
                       "~/Content/site.css",
                       "~/Content/dwStyles.css",
+                      "~/Content/fonts.css",
+                      "~/Content/default.css",
                       "~/Content/abStyles.css" 
                       ));
 

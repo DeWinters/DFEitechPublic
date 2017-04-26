@@ -34,17 +34,10 @@ header {
     background-color: white;
 }
 
-/*C:\Users\user\Documents\ab_web_project\Resources\abImages\dfei_logo.png*/
 header h1 {
     margin: 0;
     font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 }
-
-/*html, body {
-    margin: 0;
-    padding: 0;
-}*/
-
 
 
 #categories{
@@ -57,6 +50,7 @@ header h1 {
   display:block;
   clear:both;
 }
+
 #categories li{
   position:relative;
   list-style-type:none;
@@ -73,9 +67,11 @@ header h1 {
 #categories li:nth-child(3n+2){
   margin:0 1%;
 }
+
 #categories li:nth-child(6n+4){
   margin-left:0.5%;
 }
+
 #categories li:nth-child(6n+4), #categories li:nth-child(6n+5), #categories li:nth-child(6n+6) {
 	margin-top: -6.9285714285%;
   margin-bottom: -6.9285714285%;
@@ -84,13 +80,16 @@ header h1 {
   -ms-transform: translateX(50%) rotate(-60deg) skewY(30deg);
   transform: translateX(50%) rotate(-60deg) skewY(30deg);
 }
+
 #categories li:nth-child(6n+4):last-child, #categories li:nth-child(6n+5):last-child, #categories li:nth-child(6n+6):last-child{
   margin-bottom:0%;
 }
+
 #categories li *{
   position:absolute;
   visibility:visible;
 }
+
 #categories li > div{
   width:100%;
   height:100%;
@@ -102,8 +101,7 @@ header h1 {
   -ms-transform: skewY(-30deg) rotate(60deg);
   transform: skewY(-30deg) rotate(60deg);
   
-	-webkit-backface-visibility:hidden;
-  
+	-webkit-backface-visibility:hidden;  
 }
 
 
@@ -165,12 +163,6 @@ a:link, a:visited {
     color: black;
 
 }
-
-/*a:hover, a:active {
-    background-color: green;
-    color: white;
-}*/
-
 
 /* HOVER EFFECT  */
 
@@ -293,9 +285,6 @@ border-radius: 25px 25px 25px 25px;
                          left: 0;
                          border-radius: 25px 25px 25px 25px;
                         }
-
-    
-
 
 footer {
     float: left; /*Floats elements horizontally so other elements wrap around it */
